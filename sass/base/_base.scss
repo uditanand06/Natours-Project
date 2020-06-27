@@ -1,0 +1,22 @@
+/****BASIC SETUP*********/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+html{
+    //This defines what 1rem is
+    font-size:62.5%;
+}
+body{
+    box-sizing: border-box;
+
+    
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    }
